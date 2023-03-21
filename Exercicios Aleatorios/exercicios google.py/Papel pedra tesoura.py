@@ -10,31 +10,29 @@ entrada = (input ('vamos brincar de Papel , pedra e tesoura? \n Digite S para co
 
 while entrada == 'S' :
         player = (input('Digite papel , pedra ou Tesoura'   )).strip()
+         
         if player == 'papel': 
                 if  pc == 'pedra':
                       print ('vc ganhou !!! Parabens \n vc escolheu papel e o computador escolheu pedra')   
-                if pc == 'tesoura' : 
+                elif pc == 'tesoura' : 
                         print ('Voce Perdeu !!! \n Pois escolheu papel e o computador escolheu tesoura' )
-        if player == 'pedra' : 
+        elif player == 'pedra' : 
                 if pc == 'papel':
                       print ('Nao foi dessa vez !!! \n vc escolheu pedra mas o computador escolheu papel')  
-                if pc == 'tesoura' : 
+                elif pc == 'tesoura' : 
                       print ('Parabens voce ganhou !!! \n pois escolheu pedra e o computador escolheu tesoura' )      
-
-        if player == 'tesoura': 
+        elif player == 'tesoura': 
                 if pc == 'pedra' : 
                         print ('vc perdeu!!! \n vc escolheu tesoura e o computador escolheu pedra')
-                if pc == 'papel': 
+                elif pc == 'papel': 
                         print ('vc ganhou !!! \n pois escolheu tesoura e o computador escolheu papel') 
-                
-        
-        if player == pc : 
-                print (f'EMPATE!!!! \n voce digitou {player} e o computador {pc}')
+        elif player == pc : 
+                        print (f'EMPATE!!!! \n voce digitou {player} e o computador {pc}')
 
 else : 
                  print ('Voce nao digitou nenhuma das opçoes!  ')
                  entrada = input('Deseja jogar? Digite s para Sim')
-        
+print (pc)
 
 
 
