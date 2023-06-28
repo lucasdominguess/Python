@@ -9,3 +9,5 @@ if km_franquia<km_rodados :
     print (f'convertendo .. vc recebera R${km_excedente*0.30}Reais')
 else : 
     print (f'Voce rodou apenas {km_rodados}km. e nao atingiu a franquia de {km_franquia}km')
+    #ok
+    
