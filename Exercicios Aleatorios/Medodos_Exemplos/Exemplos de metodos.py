@@ -46,3 +46,5 @@ print(list(filter(lambda x: x > 2, [1, 2, 3, 4, 5])))       # Saída: [3, 4, 5]
 
 join() - combina uma sequência de strings em uma única string usando um separador.
 print(' '.join(['Python', 'é', 'legal!']))       # Saída: 'Python é legal!'
+
+:.2f = o Python vai entender que quer duas casas decimais após o ponto. Se usar %. 1f, o Python exibe só uma casa decimal
