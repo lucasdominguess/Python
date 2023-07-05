@@ -10,7 +10,7 @@ entrada = (input ('vamos brincar de Papel , pedra e tesoura? \n Digite S para co
 
 while entrada == 'S' :
         player = (input('Digite papel , pedra ou Tesoura'   )).strip()
-         
+        pc =random.choice(opçoes)
         if player == 'papel': 
                 if  pc == 'pedra':
                       print ('vc ganhou !!! Parabens \n vc escolheu papel e o computador escolheu pedra')   
