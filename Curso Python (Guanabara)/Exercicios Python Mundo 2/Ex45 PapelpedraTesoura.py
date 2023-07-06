@@ -7,7 +7,7 @@ opçoes = ['papel','pedra','tesoura']
 #entrada = (input ('vamos brincar de Papel , pedra e tesoura? \n Digite S para continuar Digite N para sair ')).upper().strip()
 
 player = (input('Digite papel , pedra ou Tesoura ')).strip()
-pc =random.choice(opçoes) #Pc 
+pc =random.choice(opçoes) #Pc #pode usar randint() tbm 
 
 if player == 'papel': 
                 if  pc == 'pedra':

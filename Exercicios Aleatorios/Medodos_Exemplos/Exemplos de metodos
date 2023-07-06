@@ -48,3 +48,6 @@ join() - combina uma sequência de strings em uma única string usando um separa
 print(' '.join(['Python', 'é', 'legal!']))       # Saída: 'Python é legal!'
 
 :.2f = o Python vai entender que quer duas casas decimais após o ponto. Se usar %. 1f, o Python exibe só uma casa decimal
+
+#import random 'random.choice('opçoes') tbm randint () // randomizar opçoes 
+
