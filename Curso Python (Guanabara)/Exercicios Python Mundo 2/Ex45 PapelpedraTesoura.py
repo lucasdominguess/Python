@@ -7,7 +7,7 @@ opçoes = ['papel','pedra','tesoura']
 #entrada = (input ('vamos brincar de Papel , pedra e tesoura? \n Digite S para continuar Digite N para sair ')).upper().strip()
 
 player = (input('Digite papel , pedra ou Tesoura ')).strip()
-pc =random.choice(opçoes)
+pc =random.choice(opçoes) #Pc 
 
 if player == 'papel': 
                 if  pc == 'pedra':
@@ -34,7 +34,7 @@ elif player == 'tesoura':
                         print (f'EMPATE!!!! \n voce digitou {player} e o computador {pc}')
 
 else : 
-    print ('Voce nao digitou nenhuma das opçoes! ')
+    print ('Voce nao digitou nenhuma das opçoes! ') 
     
                  
 
