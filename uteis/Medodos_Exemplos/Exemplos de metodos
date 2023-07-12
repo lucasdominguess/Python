@@ -1,4 +1,4 @@
-len() - retorna o tamanho de uma sequência (por exemplo, lista, tupla, string).
+'''len() - retorna o tamanho de uma sequência (por exemplo, lista, tupla, string).
 print(len([1, 2, 3]))       # Saída: 3
 print(len("Python é legal!"))  # Saída: 16
 
@@ -49,5 +49,5 @@ print(' '.join(['Python', 'é', 'legal!']))       # Saída: 'Python é legal!'
 
 :.2f = o Python vai entender que quer duas casas decimais após o ponto. Se usar %. 1f, o Python exibe só uma casa decimal
 
-#import random 'random.choice('opçoes') tbm randint () // randomizar opçoes 
+#import random 'random.choice('opçoes') tbm randint () // randomizar opçoes '''
 
