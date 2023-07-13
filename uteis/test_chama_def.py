@@ -1,7 +1,8 @@
 
-import uteis 
+#import uteis 
+from .uteis import mostraLinha,contagemRegressiva
 
-uteis.mostraLinha() 
+mostraLinha()
 
 print('nada')
 
