@@ -3,7 +3,8 @@
 #2.from uteis import 'nomedaFunção1','nomedaFunção2'/ digita apenas 'nomedaFunção'
 
 def mostraLinha(): #criar linha
-    print ( 10*'---')
+    linha = ( 10*'---')
+    return linha
 
 def somaSimples(a,b): #somar somente a + b 
     s=a+b 
