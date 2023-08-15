@@ -7,3 +7,5 @@ elif nome in 'ana claudia sabrina jessica':
     print ('nome de mulher')
 else:
     print ('que nome feio')
+
+
