@@ -15,8 +15,8 @@ soma (9,4,8,1)'''
 
 def tabuada (num=1): 
     for n in range (11):
-    print(f'{num} x {n} = {num*n}')
-    return n
+        print(f'{num} x {n} = {num*n}')
+        return n
 
 f1= tabuada (int(input ('digite um numero')))
 f2= tabuada (int(input('digite outro numero')))
