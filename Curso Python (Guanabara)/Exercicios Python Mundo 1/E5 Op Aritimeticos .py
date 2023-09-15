@@ -2,9 +2,14 @@
 
 
 
-n = int (input('Digite um numero'))
+
+n = float (input('Digite um numero'))
+
 a = n-1 # mostra o valor N menos 1 
+
 s=n+1
 
+
 print (f'o numero antecessor de {n} é {a}') 
+
 print (f'o numero sucessor de {n} é {s}')
